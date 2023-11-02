@@ -1,2 +1,2 @@
 # Youtube-Time-Saver
-chrome extension to save time from social media
+Chrome extension to manage your YouTube usage and save your precious time!

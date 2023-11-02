@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    padding: 10px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+.popup-items {
+}
+
+.popup-items__item:not(:last-child) {
+    margin-bottom: 3px;
+}
+.popup-items__item {
+    }
