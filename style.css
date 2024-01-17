@@ -7,10 +7,15 @@
 body {
     font-size: 16px;
     padding: 10px;
+    width: 290px;
 }
 
 h3 {
     margin: 10px;
+}
+
+li {
+    list-style-type: none
 }
 
 .popup-items {
@@ -19,5 +24,10 @@ h3 {
 .popup-items__item:not(:last-child) {
     margin-bottom: 3px;
 }
+
 .popup-items__item {
-    }
+}
+
+.popup-items__sub-item {
+    margin-left: 10px;
+}

@@ -1,24 +1,25 @@
 {
-    "manifest_version": 3,
-    "name": "YouTube time saver.",
-    "version": "0.1.0",
-    "permissions": [
-        "storage",
-        "activeTab",
-        "scripting",
-        "webNavigation"
-    ],
-    "content_scripts": [
-        {
-            "matches": ["<all_urls>"],
-            "js": ["script.js"]
-        }
-    ],
-    "background": {
-        "service_worker": "background.js"
-    },
-    "action": {
-        "default_popup": "popup.html",
-        "default_icon": "save-time.png"
+  "manifest_version": 3,
+  "name": "YouTube time saver.",
+  "version": "0.1.1",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "webNavigation"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "scripts/content.js"
+      ]
     }
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "images/save-time.png"
+  }
 }
